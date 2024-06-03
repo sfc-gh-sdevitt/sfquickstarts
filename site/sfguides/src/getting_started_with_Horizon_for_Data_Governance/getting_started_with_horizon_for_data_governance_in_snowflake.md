@@ -1063,7 +1063,7 @@ FROM HRZN_DB.HRZN_SCH.CUSTOMER
 WHERE ZIP NOT IN ('97135', '95357');
 ````
 
-Which members from postal_code 97135 AND 95357 have have opted in for text messages?
+Which members from postal_code 97135 AND 95357 have have opted in for text messages?  This should not result in any rows because these zipcodes aren't from MA.
 ````
 SELECT 
     ID,FIRST_NAME,PHONE_NUMBER,EMAIL, COMPANY
